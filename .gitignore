@@ -1,0 +1,16 @@
+# Public-repository allowlist.
+#
+# The local workspace also contains private investigation notes, machine paths,
+# live session identifiers, dispatch files and raw probe evidence. Keep those
+# files local by default; list only files intended for public release below.
+*
+
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!SECURITY.md
+!ProjectContext.md
+!docs/
+!docs/**
